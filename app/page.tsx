@@ -1,4 +1,7 @@
-'use client';
+export const metadata = {
+  title: 'SEO Title',
+  description: 'SEO Title',
+};
 
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store/store';
