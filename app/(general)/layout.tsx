@@ -4,9 +4,9 @@ export default function GeneralLayout({
     children: React.ReactNode;
 }) {
     return (
-        <div>
-            <h1>Hello Root Layout About</h1>
+        <main className='flex flex-col items-center p-24'>
+            <span className='text-lg'>Hola mundo</span>
             {children}
-        </div>
+        </main>
     );
 }
