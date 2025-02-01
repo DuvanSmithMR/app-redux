@@ -7,7 +7,6 @@ const navItems = [
     { path: '/contact', text: 'Contact' },
     { path: '/pricing', text: 'Pricing' },
 ]
-
 export const NavBar = async () => {
     console.log("Navbar creado");
     return (
